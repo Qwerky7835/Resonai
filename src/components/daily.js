@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
-import energy from '../img/energy.webp'
+import energy from '../img/image.gif'
 
 import './daily.css';
 
@@ -12,7 +12,7 @@ function Daily(){
 	<Container fluid style = {{height:"100vh"}}>
 		<Row>
 			<Col className="d-flex flex-column align-items-center">
-				<Image src={energy} fluid style = {{height:"80%"}} />
+				<Image src={energy} fluid style = {{height:"95%"}} />
 			</Col>
 			<Col className="d-flex flex-column align-items-center">
 				<p style={{fontSize:"300%"}}>Reson.ai</p>
