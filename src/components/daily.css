@@ -1,0 +1,10 @@
+p{
+	font-family: 'Brush Script MT', cursive;
+}
+
+.col {
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: auto;
+}
